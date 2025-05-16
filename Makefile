@@ -1,13 +1,13 @@
 #==========================================
-#    Makefile: makefile for sl 5.1
-#	Copyright 1993, 1998, 2014
+#    Makefile: makefile for sl 6.00
+#	Copyright 1993, 1998, 2014, 2025
 #                 Toyoda Masashi
 #		  (mtoyoda@acm.org)
-#	Last Modified: 2014/03/31
+#	Last Modified: 2025/05/16
 #==========================================
 
 CC=gcc
-CFLAGS=-O -Wall
+CFLAGS=-O3 -Wall
 
 all: sl
 
